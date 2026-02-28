@@ -167,7 +167,6 @@ def decidir_jogada(tab, jogador):
     """
     Função principal do Minimax.
     'jogador' é o jogador atual (1 ou 2).
-    Retorna a melhor jogada para o jogador atual.
     """
     def avaliar(tabuleiro, atual):
         vencedor = verificar_vitoria(tabuleiro)
